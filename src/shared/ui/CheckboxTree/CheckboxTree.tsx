@@ -1,8 +1,8 @@
 import { observer } from 'mobx-react-lite';
 import { useEffect } from 'react';
 
-import type { TreeNode } from './model/TreeStore.ts';
-import { treeStore } from './model/TreeStore.ts';
+import type { TreeNode } from './model/store/TreeStore.ts';
+import { treeStore } from './model/store/TreeStore.ts';
 import { CheckBox } from './ui/Checkbox/Checkbox.tsx';
 
 import styles from './CheckoxTree.module.scss';
